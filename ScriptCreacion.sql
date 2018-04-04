@@ -73,8 +73,9 @@ create table Fotografia(
 	IdFoto smallint not null auto_increment,
     NombreUsuario char(30) not null,
     FechaFoto date not null,
-    Latitud varchar(50),
-    Longitud varchar(50),
+    Foto varchar(30) not null,
+    Latitud varchar(50) not null,
+    Longitud varchar(50) not null,
     primary key(IdFoto),
     foreign key(NombreUsuario) references Usuario (NombreUsuario)
 );
