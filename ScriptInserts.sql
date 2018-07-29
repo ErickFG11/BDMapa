@@ -232,6 +232,22 @@ INSERT INTO fotografia (NombreUsuario,FechaFoto,Foto,Latitud,Longitud) VALUES
 ("AdminErick","2017-08-16","Camino/104.jpg","20.219171511403303","-101.10408082514766"),
 ("AdminErick","2017-08-16","Camino/105.jpg","20.2171418066568","-101.10374150812464");
 
-
-select * from fotografia;
-
+INSERT INTO clasificacion (Nombrecomun,NombreCien,Protegido,Riesgo,Frutal,Endemico,ConsumoAgua) VALUES
+("Mezquite","Punica granatum","Si","Ninguno","Si","Si","Poco"),
+("Nopal","Opuntia","Si","Peligro","Si","Si","Poco"),
+("Pino California","Pinus radiata","Si","Peligro","No","No","Medio"),
+("Pirul","Schinus molle","No","Ninguno","No","No","Medio"),
+("Cazahuate","Ipomea arborescens","No","Ninguno","No","Si","Poco"),
+("Tepehuaje","Lysiloma acapulsensis","No","Ninguno","Si","Si","Poco"),
+("Eucalipto","Eucalyptus","No","Ninguno","No","No","Alto"),
+("Guayabo","Psidium guajava","No","Ninguno","Si","Si","Alto"),
+("Palma abanico","Washingtonia robusta","No","Ninguno","No","Si","Medio"),
+("Palma datilera","Phoenix dactylifera","No","Ninguno","Si","No","Poco"),
+("Limón","Citrus limunum","No","Ninguno","Si","No","Alto"),
+("Ciruelo rojo","Prunus cerasifera","No","Ninguno","Si","No","Alto"),
+("Granado","Punica granatum","No","Ninguno","Si","No","Medio"),
+("Jarilla amarilla","Senecia salignus DC","No","Ninguno","No","Si","Medio"),
+("Tamarindo","Tamarindus indica","No","Ninguno","Si","No","Medio"),
+("Huizache","Acacia shaffneri","Si","Regular","No","Si","Poco"),
+("Algodonero","Gossypium hirsutum","No","Ninguno","No","No","Poco"),
+("Garambullo","Myrtillo geometrizans","No","Ninguno","Si","Si","Poco");

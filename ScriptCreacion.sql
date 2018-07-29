@@ -1,4 +1,4 @@
-drop database if exists MapaEcologico;
+/*drop database if exists MapaEcologico;*/
 create database MapaEcologico;
 use MapaEcologico;
 
@@ -40,12 +40,13 @@ create table LlaveAgua(
 
 create table Clasificacion(
 	IdClasificacion smallint not null auto_increment,
-    TipoArbol varchar(20),
-    Descripcion varchar(50),
-    NCientifico varchar(20),
+    NombreComun varchar(30),
+	NombreCien varchar(50),
     Protegido char(2),
-    ImpactoEco varchar(20),
-    PeligroExtincion char(2),
+    Riesgo varchar(20),
+    Frutal char(2),
+    Endemico char(2),
+    ConsumoAgua varchar (20),
 	primary key(IdClasificacion)
 );
 
