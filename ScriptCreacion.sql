@@ -1,4 +1,4 @@
-/*drop database if exists MapaEcologico;*/
+drop database if exists MapaEcologico;
 create database MapaEcologico;
 use MapaEcologico;
 
